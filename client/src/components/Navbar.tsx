@@ -2,8 +2,10 @@ import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <div className="fixed top-0 right-0 w-full py-3 text-white bg-stone-900 flex justify-between">
-      <div className="ml-5">Logo</div>
+    <div className="fixed top-0 right-0 w-full py-3 text-white bg-stone-900 flex justify-between z-50">
+      <NavLink to="/" className="hover:text-stone-300">
+        <div className="ml-5">Logo</div>
+      </NavLink>
       <div className="mr-5 flex gap-10">
         <NavLink to="/" className="hover:text-stone-300">
           Home
