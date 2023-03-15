@@ -12,7 +12,7 @@ const SingleMenuItem: FC<Props> = ({ item }) => {
     <motion.div
       initial={{ scale: 0.95 }}
       whileInView={{ scale: 1 }}
-      className="p-5 bg-red-300 w-11/12 shadow-md"
+      className="p-5 bg-pink-500 w-11/12 shadow-md bg-opacity-20"
     >
       <h2 className="text-stone-800 font-bold">{item.name}</h2>
       <div className="flex items-center text-sm md:text-lg justify-between">

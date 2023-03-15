@@ -4,7 +4,7 @@ import { MdEmail } from "react-icons/md";
 
 const Footer = () => {
   return (
-    <div className="fixed bottom-0 w-full flex bg-stone-900 text-white justify-between py-3">
+    <div className="w-screen flex bg-stone-900 text-white justify-between py-3">
       <div className="flex items-center gap-5 cursor-pointer text-xl pl-10">
         <div className="hover:text-blue-200">
           <AiFillFacebook />
