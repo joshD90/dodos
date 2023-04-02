@@ -24,7 +24,7 @@ const SingleMenuItem: FC<Props> = ({ item }) => {
             <>
               {price.map((price, index) => {
                 return (
-                  <div className="flex flex-col">
+                  <div className="flex flex-col" key={index}>
                     {item.sizes && (
                       <span className="text-sm">{item.sizes[index]}</span>
                     )}
