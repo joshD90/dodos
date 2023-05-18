@@ -15,7 +15,9 @@ const MenuSegment: FC<Props> = ({ section }) => {
           {section.name}
         </h2>
         {section.contents.map((item) => {
-          return <SingleMenuItem item={item} key={item.name} />;
+          return (
+            <SingleMenuItem item={item} key={item.name} segment={section} />
+          );
         })}
       </>
     </div>
